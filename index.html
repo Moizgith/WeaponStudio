@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Gems</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="first-container">
+        <div class="navbar">
+            <div class="logoc">
+                <div class="logo"></div>
+                <span class="heading">Weapon_Studio</span>
+            </div>
+            <div class="content">
+                <ul class="list">
+                    <li class="list-item">Home</li>
+                    <li class="list-item">About Us</li>
+                    <li class="list-item">Contact Us</li>
+                </ul>
+            </div>
+        </div>
+        <!-- gungnir  -->
+        <div class="gungnir">
+            <div class="gungnir_description" id="gungnir_description">
+                <h1 class="weapon_heading"> (Gungnir/ˈɡʌŋ. nɪər/, "the rocking") is the spear of the god Odin.</h1>
+                <h4 class="description">According to chapter 51 of the Prose Edda book, Gylfaginning, Odin will ride in
+                    front of the Einherjar while advancing on to the battle field at Ragnarök wearing a gold helmet</h4>
+                <button class="read_more_btn" onclick="redirectToNewTab('gungnir')">Read More</button>
+            </div>
+            <div class="gungnir_img" id="gungnir_img"></div>
+
+        </div>
+
+    </div>
+    <!-- Sword OF Freyr -->
+    <div class="sword_of_freyr">
+        <div class="sof_img" id="sof_img"></div>
+        <div class="sof_description" id="sof_description">
+            <h1 class="weapon_heading">Sword of Freyr "Sumarbrander" (nicknamed "Jack").</h1>
+            <h4 class="description">Freyr asks Skírnir to bring Gerðr to him, but his messenger demands his sword from
+                him, and Frey readily gives it. However, the loss of Freyr's sword has long-term consequences. </h4>
+            <button class="read_more_btn" onclick="redirectToNewTab('sof')">Read More</button>
+        </div>
+
+    </div>
+    <!-- Mionir -->
+    <div class="mionir">
+
+        <div class="mionir_description" id="mionir_description">
+            <h1 class="weapon_heading">Mjölnir is the hammer of the thunder god Thor.</h1>
+            <h4 class="description" style="position: relative; top: 0px;">Mjölnir (from Old Norse Mjǫllnir) is the
+                hammer of the thunder god Thor in Norse mythology, used both as a devastating weapon and as a divine
+                instrument to provide blessings. </h4>
+            <button class="read_more_btn" onclick="redirectToNewTab('mionir')">Read More</button>
+        </div>
+        <div class="mionir_img" id="mionir_img"></div>
+
+    </div>
+    <!-- Dainselif -->
+    <div class="dainselif">
+        <div class="dainselif_img" id="dainselif_img"></div>
+        <div class="sof_description" id="dainselif_description">
+            <h1 class="weapon_heading">Dáinsleif ("Dáinn's Heirloom") is king Högni's sword.</h1>
+            <h4 class="description">The name Dain means dead (one). Leif means inheritance, legacy. Dainsleif is the
+                sword of king Högni in the Hjaðningavíg (the never-ending "battle of the Heodenings"). </h4>
+            <button class="read_more_btn" onclick="redirectToNewTab('dainselif')">Read More</button>
+        </div>
+
+    </div>
+    <!-- Tyrfing -->
+
+    <div class="Tyrfing">
+
+        <div class="mionir_description" id="next_desciption">
+            <h1 class="weapon_heading">Tyrfing, also rendered as Tirfing or Tyrving.</h1>
+            <h4 class="description" style="position: relative; top: -30px; text-align: justify;">As described in its
+                legends, Tyrfing was the keenest of all blades; every time it was drawn a light shone from it like a ray
+                of the sun.It could never be held unsheathed without being the death of a man, and it had always to be
+                sheathed with blood still warm upon it. </h4>
+            <button class="read_more_btn" onclick="redirectToNewTab('tyrfing')">Read More</button>
+        </div>
+        <div class="tyrfing_img" id="tyrfing_image"
+            style="background-image: url(/tyrfing.jpg); background-size: cover;"></div>
+
+    </div>
+
+    <!-- Hemdall -->
+
+
+    <div class="Hemdall">
+
+        <div class="hemdal_img" id="hemdal_img"
+            style="background-image: url(/hemdal.png); background-size: cover; height: 500px; width: 250px;"></div>
+
+        <div class="mionir_description" id="hemdal_description">
+            <h1 class="weapon_heading">Hofund sword of heimdall.</h1>
+            <h4 class="description" style="position: relative; top: -30px; text-align: justify;">Heimdall Asgard
+                Guardsman and Horn · Vidar God of Revenge, Shoe, and Sword · Ullr God of Archery and Glory.Hǫfuð
+                ("man-head", Norwegian hoved, Danish hoved, Swedish huvud and Icelandic höfuð) is the sword of Heimdall.
+            </h4>
+            <button class="read_more_btn" onclick="redirectToNewTab('hemdal')">Read More</button>
+        </div>
+    </div>
+
+    <!-- Footer  -->
+
+    <div class="footer">
+        <div class="footer-inner">
+            <div class="footer-item" style="width: 400px;">
+                <span><img src="logo.jpg" style="width: 30px; height: 30px; border-radius: 5px; margin: 10px;"> <span
+                        style="position: relative; top: -20px;">Weapon Studio<span></span>
+                        <p style="position: relative; top: 30px; text-align: justify;">"Journey through time and myth to
+                            discover the weapons that shaped ancient legends.."</p>
+                        <p style="position: relative; top: 40px; text-align: justify;">"Dive into the world of legendary
+                            weapons and artifacts. From the powerful Mjölnir of Norse mythology to the enchanted
+                            Excalibur of Arthurian legend, explore the stories, origins, and powers of the most famous
+                            mythological weapons from around the globe."</p>
+            </div>
+            <div class="footer-item">
+                <h2 style="text-align: center;">Content</h2>
+                <p style="margin: 10px; cursor: pointer;" onclick="redirectToNewTab('gungnir')">Gungnir {Sword Of Odin}
+                </p>
+                <hr>
+                <p style="margin: 10px ;cursor: pointer;" onclick="redirectToNewTab('sof')">Freyr {Sword Of Freyr}</p>
+                <hr>
+                <p style="margin: 10px;cursor: pointer;" onclick="redirectToNewTab('mionir')"> Mjölnir {Hammer Of Thor}
+                </p>
+                <hr>
+                <p style="margin: 10px;cursor: pointer;" onclick="redirectToNewTab('dainselif')">Dáinsleif {Dáinn's
+                    Heirloom}</p>
+                <hr>
+                <p style="margin: 10px;cursor: pointer;" onclick="redirectToNewTab('tyrfing')">Tyrfing {keenest of all
+                    blades}</p>
+                <hr>
+                <p style="margin: 10px;cursor: pointer;" onclick="redirectToNewTab('hemdal')">Hofund {Sword of heimdall}
+                </p>
+                <hr>
+            </div>
+            <div class="footer-item" style="width: 230px;">
+                <h3 style="margin-top: 10px; text-align: center;">Contact Us</h3>
+                <div class="contact-items">
+                    <div class="box1">
+                        <span class="contact-logo"><ion-icon name="logo-twitter"></ion-icon></span>
+                        <span class="contact-logo"><ion-icon name="logo-facebook"></ion-icon></span>
+                        <span class="contact-logo"><ion-icon name="logo-instagram"></ion-icon></span>
+                        <span class="contact-logo"><ion-icon name="logo-github"></ion-icon></span>
+                    </div>
+                    <div class="box2">
+                        <span class="contact-text">Twitter</span>
+                        <span class="contact-text">Facebook</span>
+                        <span class="contact-text">Instagram</span>
+                        <span class="contact-text">Github</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h4
+        style=" color: grey; margin: 20px; text-align: center; border-top: 2px solid white; width: 1200px; position: relative; left: 90px;">
+        Designed By Moiz</h4>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+        integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollToPlugin.min.js"
+        integrity="sha512-1PKqXBz2ju2JcAerHKL0ldg0PT/1vr3LghYAtc59+9xy8e19QEtaNUyt1gprouyWnpOPqNJjL4gXMRMEpHYyLQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
